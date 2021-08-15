@@ -1,5 +1,5 @@
-# intel8086-microprocessor-lab
 **01**
+
 ![Lab 01 Task 01](https://i.ibb.co/B4wP4PF/Screenshot-20210815-155338.png "Lab 01 Task 01")
 ```
     ADD AL,3H
@@ -14,6 +14,7 @@
     SUB BL,DL
 ```
 **02**
+
 ![Lab 01 Task 02](https://i.ibb.co/HV1dwgf/Screenshot-20210815-155411.png "Lab 01 Task 02")
 ```
 .MODEL SMALL  
@@ -52,6 +53,7 @@ MAIN ENDP
 ```
 
 **03**
+
 ![Lab 01 Task 03](https://i.ibb.co/hMwJrvf/Screenshot-20210815-155542.png "Lab 01 Task 03")
 ```
 .MODEL SMALL  
@@ -80,6 +82,7 @@ MUL CL    ;Multiplying CL with AL (C*(A/B))
 ```
 
 **04**
+
 ![Lab 01 Task 04](https://i.ibb.co/j3SZhbk/Screenshot-20210815-155609.png "Lab 01 Task 04")
 ```
 .MODEL SMALL  
@@ -122,6 +125,7 @@ MAIN ENDP
 ```
 
 **05**
+
 ![Lab 02 Task 01](https://i.ibb.co/j3Trzfd/Screenshot-20210815-181215.png "Lab 02 Task 01")
 ```
 .MODEL SMALL
@@ -206,6 +210,7 @@ MAIN ENDP
     END MAIN
 ```
 **06**
+
 ![Lab 02 Task 02](https://i.ibb.co/pWRNG33/Screenshot-20210815-181301.png "Lab 02 Task 02")
 ```
 .MODEL SMALL
@@ -235,6 +240,7 @@ END MAIN
 ```
 
 **07**
+
 ![Lab 02 Task 03](https://i.ibb.co/HrMZwC5/Screenshot-20210815-181326.png "Lab 02 Task 03")
 ```
 .MODEL SMALL
@@ -334,6 +340,7 @@ END MAIN
 ```
 
 **08**
+
 ![Lab 02 Task 04](https://i.ibb.co/KXcq3Wn/Screenshot-20210815-181349.png "Lab 02 Task 04")
 ```
 .MODEL SMALL
@@ -387,6 +394,7 @@ END MAIN
 ```
 
 **09**
+
 ![Lab 03 Task 01](https://i.ibb.co/vQ2tD4q/Screenshot-20210815-181420.png "Lab 03 Task 01")
 ```
 .MODEL SMALL
@@ -508,6 +516,7 @@ END MAIN
 ```
 
 **10**
+
 ![Lab 03 Task 02](https://i.ibb.co/hXWYcSJ/Screenshot-20210815-181454.png "Lab 03 Task 02")
 ```
 .model small
@@ -612,6 +621,7 @@ End
 ```
 
 **11**
+
 ![Lab 03 Task 03](https://i.ibb.co/gz8nBWL/Screenshot-20210815-181519.png "Lab 03 Task 03")
 ```
 data segment
@@ -723,6 +733,7 @@ end start
 ```
 
 **12**
+
 ![Lab 03 Task 04](https://i.ibb.co/rvmtQnT/Screenshot-20210815-181551.png "Lab 03 Task 04")
 ```
 .MODEL SMALL
