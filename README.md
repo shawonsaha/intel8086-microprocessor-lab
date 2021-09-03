@@ -1,6 +1,6 @@
 **01**
 
-Swap two numbers using ADD/SUB instructions only.
+Swap two numbers using **ADD/SUB** instructions only.
 
 <details>
   <summary>Show Original</summary>
@@ -24,7 +24,7 @@ Swap two numbers using ADD/SUB instructions only.
 
 If P, Q and R are 3 variables, perform the given mathematical operation
 
-• Q = (P + R) - Q
+• **Q = (P + R) - Q**
 
 <details>
   <summary>Show Original</summary>
@@ -72,7 +72,7 @@ MAIN ENDP
 
 If A, B and C are 3 variables, then perform the given mathematical operation
 
-• A / B * C
+• **A / B * C**
 
 <details>
   <summary>Show Original</summary>
@@ -107,7 +107,7 @@ MUL CL    ;Multiplying CL with AL (C*(A/B))
 ---
 **04**
 
-Perform the following arithmetic operation: (1 + 2) / (3 - 1) * 5 - 3 + 2 - (1 / 2)
+Perform the following arithmetic operation: **(1 + 2) / (3 - 1) * 5 - 3 + 2 - (1 / 2)**
 
 <details>
   <summary>Show Original</summary>
@@ -159,11 +159,11 @@ MAIN ENDP
 
 Take two numbers as input, multiply them, print the message “The result is” and then display the result in the next line.
 
-Sample Execution:  <br />
+**Sample Execution:**  <br />
 1 (1st input)  <br />
 2 (2nd input)  <br />
 
-The result is <br />
+*The result is* <br />
 1
 
 <details>
@@ -257,13 +257,13 @@ MAIN ENDP
 
 **06**
 
-Take an uppercase letter as input from the user (omit error checking, so you do not have to write code for checking whether the user is inputting upper case or lower case), and display it at the next position on the next line in lower case.
+Take an uppercase letter as input from the user (**omit error checking,** so you do not have to write code for checking whether the user is inputting upper case or lower case), and display it at the **next position** on the **next line** in **lower case.**
 
-Sample Execution 1: <br />
+**Sample Execution 1:** <br />
 A <br />
 a 
 
-Sample Execution 2: <br />
+**Sample Execution 2:** <br />
 B <br />
 b
 
@@ -302,12 +302,12 @@ END MAIN
 
 **07**
 
-Write a program to: (a) prompt the user, (b) read first initial, then the middle, and then the last initial of a person's name, and then {c) display them down the left margin.
+Write a program to: (a) **prompt the user,** (b) **read first initial, then the middle, and then the last initial of a person's name,** and then {c) **display them down the left margin.**
 
-Sample execution: <br />
-Enter First Initial: S <br />
-Enter Second Initial: F <br />
-Enter Third Initial: L
+**Sample execution:** <br />
+*Enter First Initial:* S <br />
+*Enter Second Initial:* F <br />
+*Enter Third Initial:* L
 
 S <br />
 F <br />
@@ -420,8 +420,8 @@ END MAIN
 
 Write a program to read one of the hex digits A-F, and display it on the next line in decimal.
 
-Sample execution: <br />
-ENTER A HEX DIGIT: C <br />
+**Sample execution:** <br />
+*ENTER A HEX DIGIT:* C <br />
 IN DECIMAL IT IS 12
 
 <details>
@@ -485,12 +485,12 @@ END MAIN
 
 Write a program which takes in 3 digits as input from the user and finds the number which is not maximum or minimum.
 
-Sample input: <br />
-1st input: 7 <br />
-2nd input: 10 <br />
-3rd input: 9
+**Sample input:** <br />
+*1st input:* 7 <br />
+*2nd input:* 10 <br />
+*3rd input:* 9
 
-Sample Output:
+**Sample Output:**
 9
 
 <details>
@@ -622,22 +622,22 @@ END MAIN
 
 Take two digits as input from the user and multiply them. If the result is divisible by 4 and 6 both, print “Divisible”. Otherwise print “Not divisible”
 
-Sample input: <br />
-1st input: 8 <br />
-2nd input: 3
+**Sample input:** <br />
+*1st input:* 8 <br />
+*2nd input:* 3
 
 Result is 24
 
-Sample Output:
+**Sample Output:**
 Divisible
 
-Sample input: <br />
-1st input: 4 <br />
-2nd input: 5
+**Sample input:** <br />
+*1st input:* 4 <br />
+*2nd input:* 5
 
 Result is 20
 
-Sample Output:
+**Sample Output:**
 Not divisible
 
 <details>
@@ -752,13 +752,13 @@ End
 
 Write a program which takes in a digit from 1 to 6 where each digit represents a month in a calendar year. For example the digit 1 represents January, 2 represents February, and 3 represents March and so on, Your program should then output the total number of days in that month
 
-Sample input: 4 [which represents April]
+**Sample input:** 4 [which represents April]
 
-Sample Output: 30
+**Sample Output:** 30
 
-Sample input: 2 [which represents February]
+**Sample input:** 2 [which represents February]
 
-Sample Output: 28
+**Sample Output:** 28
 
 <details>
   <summary>Show Original</summary>
@@ -879,21 +879,21 @@ end start
 
 Write a program that takes as input the length of 4 sides of a square and check whether a valid square can be formed or not. If the sides form a square, print “Y”, otherwise print “N”.
 
-Sample input: <br />
-1st side: 4 <br />
-2nd side: 2 <br />
-3rd side: 4 <br />
-4th side: 2
+**Sample input:** <br />
+*1st side:* 4 <br />
+*2nd side:* 2 <br />
+*3rd side:* 4 <br />
+*4th side:* 2
 
-Sample Output: N
+**Sample Output:** N
 
-Sample input: <br />
-1st side: 6 <br />
-2nd side: 6 <br />
-3rd side: 6 <br />
-4th side: 6
+**Sample input:** <br />
+*1st side:* 6 <br />
+*2nd side:* 6 <br />
+*3rd side:* 6 <br />
+*4th side:* 6
 
-Sample Output: Y
+**Sample Output:** Y
 
 <details>
   <summary>Show Original</summary>
@@ -1341,15 +1341,15 @@ END MAIN
 
 Write a program that will prompt the user to enter a hex digit character ("0" ... "9" or "A" ... "F'), display it on the next line in decimal, and ask the user if he or she wants to do it again. If the user types “y" or "Y", the program repeats. If the user types “n” or “N” the program terminates. If the user enters an illegal character, prompt the user to try again
 
-ENTER A HEX DIGIT: 9 <br />
-IN DECIMAL IT IS 9
+**Sample execution:**
 
-DO YOU WANT TO DO IT AGAIN?: y <br />
-ENTER A HEX DIGIT: c <br />
-ILLEGAL CHARACTER, INSERT AGAIN: C <br />
-IN DECIMAL IT IS 12
-
-DO YOU WANT TO DO IT AGAIN? : N
+***ENTER A HEX DIGIT:*** 9 <br />
+IN DECIMAL IT IS 9 <br />
+***DO YOU WANT TO DO IT AGAIN?:*** y <br />
+***ENTER A HEX DIGIT:*** c <br />
+ILLEGAL CHARACTER, *INSERT AGAIN:* C <br />
+IN DECIMAL IT IS 12 <br />
+***DO YOU WANT TO DO IT AGAIN? :*** N
 
 <details>
   <summary>Show Original</summary>
@@ -1469,6 +1469,10 @@ EXIT:
 
 Take your name as input in an array. Then your program will have to capitalize all the small letters and convert all the small letters into capital letters.
 
+**Sample Input:** <br /> 
+**Enter Name:** Mason Mount <br />
+**Output:** mASON mOUNT
+
 <details>
   <summary>Show Original</summary>
   <img src="q/17.png" alt="Reverse all capital letters to small and vice versa" title="Reverse all capital letters to small and vice versa">
@@ -1562,10 +1566,8 @@ END
 
 Take three inputs from the user and find the maximum of the three numbers
 
-Sample Input:
-
-Enter Three numbers: 1 2 3 
-
+**Sample Input:** <br />
+*Enter Three numbers:* 1 2 3 <br />
 Largest Number: 3
 
 <details>
