@@ -4,7 +4,7 @@ Swap two numbers using ADD/SUB instructions only.
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/2KsZdm4/image.png" alt="Swap two numbers using ADD/SUB instructions only" title="Swap two numbers using ADD/SUB instructions only">
+  <img src="q/01.png" alt="Swap two numbers using ADD/SUB instructions only" title="Swap two numbers using ADD/SUB instructions only">
 </details>
 
 ```
@@ -28,7 +28,7 @@ If P, Q and R are 3 variables, perform the given mathematical operation
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/5jnZV92/image.png" alt="mathematical operation Q=(P+R)-Q" title="Smathematical operation Q=(P+R)-Q">
+  <img src="q/02.png" alt="mathematical operation Q=(P+R)-Q" title="Smathematical operation Q=(P+R)-Q">
 </details>
 
 ```
@@ -76,7 +76,7 @@ If A, B and C are 3 variables, then perform the given mathematical operation
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/k431GWS/image.png" alt="" title="mathematical operation A/B*C">
+  <img src="q/03.png" alt="" title="mathematical operation A/B*C">
 </details>
 
 ```
@@ -111,7 +111,7 @@ Perform the following arithmetic operation: (1 + 2) / (3 - 1) * 5 - 3 + 2 - (1 /
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/sJcMNV1/image.png" alt="arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)" title="arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)">
+  <img src="q/04.png" alt="arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)" title="arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)">
 </details>
 
 ```
@@ -168,7 +168,7 @@ The result is <br />
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/wdpryL8/image.png" alt="Take two numbers as input, multiply them" title="Take two numbers as input, multiply them">
+  <img src="q/05.png" alt="Take two numbers as input, multiply them" title="Take two numbers as input, multiply them">
 </details>
 
 ```
@@ -269,7 +269,7 @@ b
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/g6nyTFD/image.png" alt="convert uppercase letters to lowercase" title="convert uppercase letters to lowercase">
+  <img src="q/06.png" alt="convert uppercase letters to lowercase" title="convert uppercase letters to lowercase">
 </details>
 
 ```
@@ -315,7 +315,7 @@ L
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/chxpRhL/image.png" alt="First, middle and last initial" title="First, middle and last initial">
+  <img src="q/07.png" alt="First, middle and last initial" title="First, middle and last initial">
 </details>
 
 ```
@@ -426,7 +426,7 @@ IN DECIMAL IT IS 12
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/mh7FgXk/image.png" alt="Hex to Decimal" title="Hex to Decimal">
+  <img src="q/08.png" alt="Hex to Decimal" title="Hex to Decimal">
 </details>
 
 ```
@@ -495,7 +495,7 @@ Sample Output:
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/qFgQsfW/image.png" alt="find not maximum nor minimum" title="find not maximum nor minimum">
+  <img src="q/09.png" alt="find not maximum nor minimum" title="find not maximum nor minimum">
 </details>
 
 ```
@@ -642,7 +642,7 @@ Not divisible
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/sJ9JQjJ/image.png" alt="divisible by n1 and n2 checker" title="divisible by n1 and n2 checker">
+  <img src="q/10.png" alt="divisible by n1 and n2 checker" title="divisible by n1 and n2 checker">
 </details>
 
 ```
@@ -762,7 +762,7 @@ Sample Output: 28
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/hXvFhqH/image.png" alt="days in a month" title="days in a month">
+  <img src="q/11.png" alt="days in a month" title="days in a month">
 </details>
 
 ```
@@ -897,7 +897,7 @@ Sample Output: Y
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/PDycGSS/image.png" alt="Square Validator" title="Square Validator">
+  <img src="q/12.png" alt="Square Validator" title="Square Validator">
 </details>
 
 ```
@@ -1069,7 +1069,7 @@ Write a  program which takes in two numbers and finds all the numbers that are d
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/cNx8xqB/image.png" alt="numbers divisible by 5 within a range" title="numbers divisible by 5 within a range">
+  <img src="q/13.png" alt="numbers divisible by 5 within a range" title="numbers divisible by 5 within a range">
 </details>
 
 ```
@@ -1173,7 +1173,7 @@ a. 1 − 2 + 4 − 8 + 16 − ...... + 512
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/1mkb09t/image.png" alt="sum of number sequence using loops" title="sum of number sequence using loops">
+  <img src="q/14.png" alt="sum of number sequence using loops" title="sum of number sequence using loops">
 </details>
 
 ```
@@ -1266,7 +1266,7 @@ Write a program which stores a number in AX, stores another number in BX and mul
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/3NTkd8y/image.png" alt="Multiply using repeated summation" title="Multiply using repeated summation">
+  <img src="q/15.png" alt="Multiply using repeated summation" title="Multiply using repeated summation">
 </details>
 
 ```
@@ -1353,7 +1353,7 @@ DO YOU WANT TO DO IT AGAIN? : N
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/vw823xW/image.png" alt="Verify Hex and convert to Decimal" title="Verify Hex and convert to Decimal">
+  <img src="q/16.png" alt="Verify Hex and convert to Decimal" title="Verify Hex and convert to Decimal">
 </details>
 
 ```
@@ -1471,7 +1471,7 @@ Take your name as input in an array. Then your program will have to capitalize a
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/6vf5Rpj/image.png" alt="Reverse all capital letters to small and vice versa" title="Reverse all capital letters to small and vice versa">
+  <img src="q/17.png" alt="Reverse all capital letters to small and vice versa" title="Reverse all capital letters to small and vice versa">
 </details>
 
 ```
@@ -1570,7 +1570,7 @@ Largest Number: 3
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/wY9WRQm/image.png" alt="find maximum of three inputs" title="find maximum of three inputs">
+  <img src="q/18.png" alt="find maximum of three inputs" title="find maximum of three inputs">
 </details>
 
 ```
@@ -1671,7 +1671,7 @@ Take an array of size 5, then populate the array. Your program will then sort th
 
 <details>
   <summary>Show Original</summary>
-  <img src="https://i.ibb.co/44f5Qqh/image.png" alt="sort 5 input in ascending order from an array" title="sort 5 input in ascending order from an array">
+  <img src="q/19.png" alt="sort 5 input in ascending order from an array" title="sort 5 input in ascending order from an array">
 </details>
 
 ```
