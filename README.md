@@ -163,7 +163,7 @@ Take two numbers as input, multiply them, print the message “The result is” 
 1 (1st input)  <br />
 2 (2nd input)  <br />
 
-*The result is* <br />
+The result is <br />
 1
 
 <details>
