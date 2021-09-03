@@ -1,7 +1,7 @@
 **01**
 
 ![Swap two numbers using ADD/SUB instructions only](https://i.ibb.co/2KsZdm4/image.png "Swap two numbers using ADD/SUB instructions only")
-<br />
+
 Swap two numbers using ADD/SUB instructions only.
 ```
     ADD AL,3H
@@ -19,9 +19,10 @@ Swap two numbers using ADD/SUB instructions only.
 **02**
 
 ![mathematical operation Q=(P+R)-Q](https://i.ibb.co/5jnZV92/image.png "mathematical operation Q=(P+R)-Q")
-<br />
+
 If P, Q and R are 3 variables, perform the given mathematical operation
-• Q=(P+R)-Q
+
+• Q = (P + R) - Q
 ```
 .MODEL SMALL  
 
@@ -44,8 +45,8 @@ MOV DS , AX
 MOV BL,P
 MOV CL,Q    
 MOV DL,R
- 
- 
+
+
 ADD DL,BL ;storing data into DL where DL = (P+R)  
 SUB DL,CL ;storing data into DL where DL = (P+R) - Q
 MOV CL,DL ;storing data into CL where CL = (P+R) - Q
@@ -61,9 +62,10 @@ MAIN ENDP
 **03**
 
 ![mathematical operation A/B*C](https://i.ibb.co/k431GWS/image.png "mathematical operation A/B*C")
-<br />
+
 If A, B and C are 3 variables, then perform the given mathematical operation
-• A/B*C
+
+• A / B * C
 ```
 .MODEL SMALL  
 
@@ -93,7 +95,7 @@ MUL CL    ;Multiplying CL with AL (C*(A/B))
 **04**
 
 ![arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)](https://i.ibb.co/sJcMNV1/image.png "arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)")
-<br />
+
 Perform the following arithmetic operation: (1 + 2) / (3 - 1) * 5 - 3 + 2 - (1 / 2)
 ```
 .MODEL SMALL  
@@ -135,17 +137,20 @@ MAIN ENDP
   END MAIN 
 ```
 ---
+
 **05**
 
 ![Take two numbers as input, multiply them](https://i.ibb.co/wdpryL8/image.png "Take two numbers as input, multiply them")
-<br />
+
 Take two numbers as input, multiply them, print the message “The result is” and then display the result in the next line.
 
-Sample Execution
-1 (1st input)
-2 (2nd input)
-The result is
+Sample Execution:  <br />
+1 (1st input)  <br />
+2 (2nd input)  <br />
+
+The result is <br />
 1
+
 ```
 .MODEL SMALL
 
@@ -229,17 +234,19 @@ MAIN ENDP
     END MAIN
 ```
 ---
+
 **06**
 
 ![uppercase letter to lowercase](https://i.ibb.co/g6nyTFD/image.png "uppercase letter to lowercase")
-<br />
+
 Take an uppercase letter as input from the user (omit error checking, so you do not have to write code for checking whether the user is inputting upper case or lower case), and display it at the next position on the next line in lower case.
 
-Sample Execution 1:
-A
-a
-Sample Execution 2:
-B
+Sample Execution 1: <br />
+A <br />
+a 
+
+Sample Execution 2: <br />
+B <br />
 b
 ```
 .MODEL SMALL
@@ -268,19 +275,20 @@ MAIN PROC
 END MAIN
 ```
 ---
+
 **07**
 
 ![First, middle and last initial](https://i.ibb.co/chxpRhL/image.png "First, middle and last initial")
-<br />
+
 Write a program to: (a) prompt the user, (b) read first initial, then the middle, and then the last initial of a person's name, and then {c) display them down the left margin.
 
-Sample execution:
-Enter First Initial: S
-Enter Second Initial: F
+Sample execution: <br />
+Enter First Initial: S <br />
+Enter Second Initial: F <br />
 Enter Third Initial: L
 
-S
-F
+S <br />
+F <br />
 L
 ```
 .MODEL SMALL
@@ -379,14 +387,15 @@ MAIN PROC
 END MAIN
 ```
 ---
+
 **08**
 
 ![Hex to Decimal](https://i.ibb.co/mh7FgXk/image.png "Hex to Decimal")
-<br />
+
 Write a program to read one of the hex digits A-F, and display it on the next line in decimal.
 
-Sample execution:
-ENTER A HEX DIGIT: C
+Sample execution: <br />
+ENTER A HEX DIGIT: C <br />
 IN DECIMAL IT IS 12
 
 ```
@@ -440,15 +449,16 @@ MAIN PROC
 END MAIN
 ```
 ---
+
 **09**
 
 ![not maximum nor minimum](https://i.ibb.co/qFgQsfW/image.png "not maximum nor minimum")
-<br />
+
 Write a program which takes in 3 digits as input from the user and finds the number which is not maximum or minimum.
 
-Sample input:
-1st input: 7
-2nd input: 10
+Sample input: <br />
+1st input: 7 <br />
+2nd input: 10 <br />
 3rd input: 9
 
 Sample Output:
@@ -578,19 +588,21 @@ END MAIN
 <br />
 Take two digits as input from the user and multiply them. If the result is divisible by 4 and 6 both, print “Divisible”. Otherwise print “Not divisible”
 
-Sample input:
-Ist input: 8
+Sample input: <br />
+1st input: 8 <br />
 2nd input: 3
 
 Result is 24
+
 Sample Output:
 Divisible
 
-Sample input:
-Ist input: 4
+Sample input: <br />
+1st input: 4 <br />
 2nd input: 5
 
 Result is 20
+
 Sample Output:
 Not divisible
 ```
@@ -695,23 +707,21 @@ Not divisible
 End
 ```
 ---
+
 **11**
 
 ![days in a month](https://i.ibb.co/hXvFhqH/image.png "days in a month")
-<br />
+
 Write a program which takes in a digit from 1 to 6 where each digit represents a month in a calendar year. For example the digit 1 represents January, 2 represents February, and 3 represents March and so on, Your program should then output the total number of days in that month
 
-Sample input:
-4 [which represents April]
+Sample input: 4 [which represents April]
 
-Sample Output:
-30
+Sample Output: 30
 
-Sample input:
-2 [which represents February]
+Sample input: 2 [which represents February]
 
-Sample Output:
-28
+Sample Output: 28
+
 ```
 data segment
     ; add your data here!
@@ -821,29 +831,30 @@ ends
 end start
 ```
 ---
+
 **12**
 
 ![Lab 03 Task 04](https://i.ibb.co/PDycGSS/image.png "Lab 03 Task 04")
-<br />
+
 Write a program that takes as input the length of 4 sides of a square and check whether a valid square can be formed or not. If the sides form a square, print “Y”, otherwise print “N”.
 
 Sample input:
-1st side: 4
-2nd side: 2
-3rd side: 4
-4th side: 2
 
-Sample Output:
-N
+1st side: 4 <br />
+2nd side: 2 <br />
+3rd side: 4 <br />
+4th side: 2 <br />
+
+Sample Output: N
 
 Sample input:
-1st side: 6
-2nd side: 6
-3rd side: 6
-4th side: 6
 
-Sample Output:
-Y
+1st side: 6 <br />
+2nd side: 6 <br />
+3rd side: 6 <br />
+4th side: 6 <br />
+
+Sample Output: Y
 ```
 .MODEL SMALL
 .STACK 100H
@@ -1006,11 +1017,14 @@ MAIN PROC
 END MAIN
 ```
 ---
+
 **13**
 
 ![numbers divisible by 5 within a range](https://i.ibb.co/cNx8xqB/image.png "numbers divisible by 5 within a range")
-<br />
+
+
 Write a  program which takes in two numbers and finds all the numbers that are divisible by 5 within that range
+
 ```
 .MODEL SMALL
 .STACK 100H
@@ -1103,12 +1117,15 @@ MAIN PROC
       END MAIN
 ```
 ---
+
 **14**
 
 ![sum of number sequence using loops](https://i.ibb.co/1mkb09t/image.png "sum of number sequence using loops")
-<br />
+
 Find the sum of the following sequence using loops print the result
+
 a. 1 − 2 + 4 − 8 + 16 − ...... + 512
+
 ```
 .MODEL SMALL
 .STACK 100H
@@ -1192,11 +1209,13 @@ MAIN ENDP
 END MAIN
 ```
 ---
+
 **15**
 
 ![Multiply using repeated summation](https://i.ibb.co/3NTkd8y/image.png "Multiply using repeated summation")
-<br />
+
 Write a program which stores a number in AX, stores another number in BX and multiplies them  using repeated summation and prints the result. You will not be able to use the “MUL” function here. And you do not have to take overflow into account
+
 ```
 .MODEL SMALL
 .STACK 100H
@@ -1264,18 +1283,23 @@ MAIN PROC
 END MAIN
 ```
 ---
+
 **16**
 
 ![Verify Hex and convert to Decimal](https://i.ibb.co/vw823xW/image.png "Verify Hex and convert to Decimal")
-<br />
+
 Write a program that will prompt the user to enter a hex digit character ("0" ... "9" or "A" ... "F'), display it on the next line in decimal, and ask the user if he or she wants to do it again. If the user types “y" or "Y", the program repeats. If the user types “n” or “N” the program terminates. If the user enters an illegal character, prompt the user to try again
 
 ENTER A HEX DIGIT: 9
+
 IN DECIMAL IT IS 9
+
 DO YOU WANT TO DO IT AGAIN?: y
 
 ENTER A HEX DIGIT: c
+
 ILLEGAL CHARACTER, INSERT AGAIN: C
+
 IN DECIMAL IT IS 12
 
 DO YOU WANT TO DO IT AGAIN? : N
@@ -1388,10 +1412,11 @@ NOTAHEX:
 EXIT:
 ```
 ---
+
 **17**
 
 ![Reverse all capital letters to small and vice versa](https://i.ibb.co/6vf5Rpj/image.png "Reverse all capital letters to small and vice versa")
-<br />
+
 Take your name as input in an array. Then your program will have to capitalize all the small letters and convert all the small letters into capital letters.
 ```
 .MODEL SMALL
@@ -1476,16 +1501,18 @@ CASE ENDP
 END
 ```
 ---
+
 **18**
 
 ![find maximum of three inputs](https://i.ibb.co/wY9WRQm/image.png "find maximum of three inputs")
-<br />
+
 Take three inputs from the user and find the maximum of the three numbers
 
 Sample Input:
+
 Enter Three numbers: 1 2 3 
-Largest Number:
-3
+
+Largest Number: 3
 ```
 ORG 100H
 
@@ -1577,10 +1604,11 @@ PRNT3:
 END:
 ```
 ---
+
 **19**
 
 ![sort 5 input in ascending order from an array](https://i.ibb.co/44f5Qqh/image.png "sort 5 input in ascending order from an array")
-<br />
+
 Take an array of size 5, then populate the array. Your program will then sort the array in ascending order
 ```
 .MODEL SMALL
