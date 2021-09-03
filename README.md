@@ -1,6 +1,7 @@
 **01**
 
-![Lab 01 Task 01](https://i.ibb.co/B4wP4PF/Screenshot-20210815-155338.png "Lab 01 Task 01")
+![Swap two numbers using ADD/SUB instructions only](https://i.ibb.co/2KsZdm4/image.png "Swap two numbers using ADD/SUB instructions only")
+Swap two numbers using ADD/SUB instructions only.
 ```
     ADD AL,3H
     ADD BL,1H
@@ -13,9 +14,12 @@
     ADD BL,CL
     SUB BL,DL
 ```
+---
 **02**
 
-![Lab 01 Task 02](https://i.ibb.co/HV1dwgf/Screenshot-20210815-155411.png "Lab 01 Task 02")
+![mathematical operation Q=(P+R)-Q](https://i.ibb.co/5jnZV92/image.png "mathematical operation Q=(P+R)-Q")
+If P, Q and R are 3 variables, perform the given mathematical operation
+• Q=(P+R)-Q
 ```
 .MODEL SMALL  
 
@@ -51,10 +55,12 @@ INT 21H
 MAIN ENDP 
   END MAIN 
 ```
-
+---
 **03**
 
-![Lab 01 Task 03](https://i.ibb.co/hMwJrvf/Screenshot-20210815-155542.png "Lab 01 Task 03")
+![mathematical operation A/B*C](https://i.ibb.co/k431GWS/image.png "mathematical operation A/B*C")
+If A, B and C are 3 variables, then perform the given mathematical operation
+• A/B*C
 ```
 .MODEL SMALL  
 
@@ -80,10 +86,11 @@ DIV BL    ;A/B value will be store in AL
 MOV CL,C  ;store C into CL
 MUL CL    ;Multiplying CL with AL (C*(A/B))
 ```
-
+---
 **04**
 
-![Lab 01 Task 04](https://i.ibb.co/j3SZhbk/Screenshot-20210815-155609.png "Lab 01 Task 04")
+![arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)](https://i.ibb.co/sJcMNV1/image.png "arithmetic operation: (1 + 2) / (3-1) *5-3+2-(1/2)")
+Perform the following arithmetic operation: (1 + 2) / (3 - 1) * 5 - 3 + 2 - (1 / 2)
 ```
 .MODEL SMALL  
 
@@ -123,10 +130,17 @@ SUB BX,AX
 MAIN ENDP 
   END MAIN 
 ```
-
+---
 **05**
 
-![Lab 02 Task 01](https://i.ibb.co/j3Trzfd/Screenshot-20210815-181215.png "Lab 02 Task 01")
+![Take two numbers as input, multiply them](https://i.ibb.co/wdpryL8/image.png "Take two numbers as input, multiply them")
+Take two numbers as input, multiply them, print the message “The result is” and then display the result in the next line.
+
+Sample Execution
+1 (1st input)
+2 (2nd input)
+The result is
+1
 ```
 .MODEL SMALL
 
@@ -209,9 +223,18 @@ INT 21H
 MAIN ENDP
     END MAIN
 ```
+---
 **06**
 
-![Lab 02 Task 02](https://i.ibb.co/pWRNG33/Screenshot-20210815-181301.png "Lab 02 Task 02")
+![uppercase letter to lowercase](https://i.ibb.co/g6nyTFD/image.png "uppercase letter to lowercase")
+Take an uppercase letter as input from the user (omit error checking, so you do not have to write code for checking whether the user is inputting upper case or lower case), and display it at the next position on the next line in lower case.
+
+Sample Execution 1:
+A
+a
+Sample Execution 2:
+B
+b
 ```
 .MODEL SMALL
 .STACK 100H
@@ -238,10 +261,20 @@ MAIN PROC
     MAIN ENDP
 END MAIN
 ```
-
+---
 **07**
 
-![Lab 02 Task 03](https://i.ibb.co/HrMZwC5/Screenshot-20210815-181326.png "Lab 02 Task 03")
+![First, middle and last initial](https://i.ibb.co/chxpRhL/image.png "First, middle and last initial")
+Write a program to: (a) prompt the user, (b) read first initial, then the middle, and then the last initial of a person's name, and then {c) display them down the left margin.
+
+Sample execution:
+Enter First Initial: S
+Enter Second Initial: F
+Enter Third Initial: L
+
+S
+F
+L
 ```
 .MODEL SMALL
 .STACK 100H
@@ -338,10 +371,16 @@ MAIN PROC
     MAIN ENDP
 END MAIN
 ```
-
+---
 **08**
 
-![Lab 02 Task 04](https://i.ibb.co/KXcq3Wn/Screenshot-20210815-181349.png "Lab 02 Task 04")
+![Hex to Decimal](https://i.ibb.co/mh7FgXk/image.png "Hex to Decimal")
+Write a program to read one of the hex digits A-F, and display it on the next line in decimal.
+
+Sample execution:
+ENTER A HEX DIGIT: C
+IN DECIMAL IT IS 12
+
 ```
 .MODEL SMALL
 .STACK 100H
@@ -392,10 +431,19 @@ MAIN PROC
     MAIN ENDP
 END MAIN
 ```
-
+---
 **09**
 
-![Lab 03 Task 01](https://i.ibb.co/vQ2tD4q/Screenshot-20210815-181420.png "Lab 03 Task 01")
+![not maximum nor minimum](https://i.ibb.co/qFgQsfW/image.png "not maximum nor minimum")
+Write a program which takes in 3 digits as input from the user and finds the number which is not maximum or minimum.
+
+Sample input:
+1st input: 7
+2nd input: 10
+3rd input: 9
+
+Sample Output:
+9
 ```
 .MODEL SMALL
 .STACK 100H
@@ -514,10 +562,27 @@ MAIN PROC
     MAIN ENDP
 END MAIN
 ```
-
+---
 **10**
 
-![Lab 03 Task 02](https://i.ibb.co/hXWYcSJ/Screenshot-20210815-181454.png "Lab 03 Task 02")
+![divisible by n1 and n2 checker](https://i.ibb.co/sJ9JQjJ/image.png "divisible by n1 and n2 checker")
+Take two digits as input from the user and multiply them. If the result is divisible by 4 and 6 both, print “Divisible”. Otherwise print “Not divisible”
+
+Sample input:
+Ist input: 8
+2nd input: 3
+
+Result is 24
+Sample Output:
+Divisible
+
+Sample input:
+Ist input: 4
+2nd input: 5
+
+Result is 20
+Sample Output:
+Not divisible
 ```
 .model small
 
@@ -619,10 +684,23 @@ END MAIN
         INT 21H
 End
 ```
-
+---
 **11**
 
-![Lab 03 Task 03](https://i.ibb.co/gz8nBWL/Screenshot-20210815-181519.png "Lab 03 Task 03")
+![days in a month](https://i.ibb.co/hXvFhqH/image.png "days in a month")
+Write a program which takes in a digit from 1 to 6 where each digit represents a month in a calendar year. For example the digit 1 represents January, 2 represents February, and 3 represents March and so on, Your program should then output the total number of days in that month
+
+Sample input:
+4 [which represents April]
+
+Sample Output:
+30
+
+Sample input:
+2 [which represents February]
+
+Sample Output:
+28
 ```
 data segment
     ; add your data here!
@@ -731,10 +809,29 @@ ends
 
 end start
 ```
-
+---
 **12**
 
-![Lab 03 Task 04](https://i.ibb.co/rvmtQnT/Screenshot-20210815-181551.png "Lab 03 Task 04")
+![Lab 03 Task 04](https://i.ibb.co/PDycGSS/image.png "Lab 03 Task 04")
+Write a program that takes as input the length of 4 sides of a square and check whether a valid square can be formed or not. If the sides form a square, print “Y”, otherwise print “N”.
+
+Sample input:
+1st side: 4
+2nd side: 2
+3rd side: 4
+4th side: 2
+
+Sample Output:
+N
+
+Sample input:
+1st side: 6
+2nd side: 6
+3rd side: 6
+4th side: 6
+
+Sample Output:
+Y
 ```
 .MODEL SMALL
 .STACK 100H
@@ -896,3 +993,647 @@ MAIN PROC
     MAIN ENDP
 END MAIN
 ```
+---
+**13**
+
+![numbers divisible by 5 within a range](https://i.ibb.co/cNx8xqB/image.png "numbers divisible by 5 within a range")
+Write a  program which takes in two numbers and finds all the numbers that are divisible by 5 within that range
+```
+.MODEL SMALL
+.STACK 100H
+
+.DATA 
+PROMPT1 DB 'Enter First Number: $'
+PROMPT2 DB 'Enter Second Number: $'
+MSG DB 'numbers that are divisible by 5 within that range is: $'
+
+.CODE
+MAIN PROC  
+   MOV AX,@DATA
+   MOV DS,AX
+   
+   ;BEGIN
+   
+   ;DISPLAY PROMPT1
+   LEA DX, PROMPT1
+   MOV AH, 9
+   INT 21H
+       
+   MOV AH,1
+   INT 21H
+   MOV BL,AL
+   SUB BL,30H
+   
+   ;New Line
+   MOV AH,2
+   MOV DL,0DH
+   INT 21H
+   MOV DL,0AH
+   INT 21H
+   
+   ;DISPLAY PROMPT2
+   LEA DX, PROMPT2
+   MOV AH, 9
+   INT 21H
+   
+   MOV AH,1
+   INT 21H
+   SUB AL,30H
+   MOV CL,AL    
+   
+   ;User Input
+   MOV AH,2
+   MOV DL,0DH
+   int 21H
+
+   MOV DL,0AH
+   INT 21H
+   
+   ;Prompt
+   MOV AH,9
+   LEA DX,MSG
+   INT 21H 
+   
+   JMP BEGIN    
+   
+   BEGIN: 
+   CMP BL,CL
+   JG EXIT
+   
+   MOV AX,BX 
+   MOV DL,5H
+   
+   
+   DIV DL
+   
+   CMP AH,00
+   JE OUTPUT
+   
+   INC BL 
+   JMP BEGIN
+       
+   OUTPUT: 
+   MOV DL,BL
+   ADD DL,30H
+   MOV AH,2
+   
+   INT 21H  
+   
+   INC BL
+   JMP BEGIN
+   
+   
+   EXIT:
+   MOV AX,4C00H
+   INT 21H                         
+   MAIN ENDP
+      END MAIN
+```
+---
+**14**
+
+![sum of number sequence using loops](https://i.ibb.co/1mkb09t/image.png "sum of number sequence using loops")
+Find the sum of the following sequence using loops print the result
+a. 1 − 2 + 4 − 8 + 16 − ...... + 512
+```
+.MODEL SMALL
+.STACK 100H
+
+.DATA
+STRING DB 5 DUP(?)
+DASH DB '-$'
+.CODE
+MAIN PROC
+MOV AX, @DATA
+MOV DS, AX
+
+MOV AX, 1
+XOR DX, DX    ;THIS PUTS ZERO IN DX
+XOR CX,CX     ;THIS PUTS ZERO IN CX
+ADD DX, AX
+ADD DX, AX
+MOV BX,DX
+
+ADD CX,AX
+MUL BX
+SUB CX,AX
+MUL BX
+ADD CX,AX
+MUL BX
+SUB CX,AX
+MUL BX
+ADD CX,AX
+MUL BX
+SUB CX,AX
+MUL BX
+ADD CX,AX
+MUL BX
+SUB CX,AX
+MUL BX
+ADD CX,AX
+MUL BX
+SUB CX,AX            ;GOT THE FINAL RESULT
+
+XOR BX,BX            ;RESET BX TO 0
+MOV BX, 65535        ;STORE HEX VALUE FFFF TO BX
+SUB BX,CX            ;SUB FFFF TO FINAL RESULT TO GET THE POSITIVE VALUE OF THE NEGATIVE INTEGER
+ADD BX, 1            ;FIXING 0 INDEX BY ADDING 1
+XOR AX,AX            ;RESET AX TO 0
+MOV AX,BX            ;STORING BX INTO AX FOR PRINTING PURPOSE
+
+;CONVERTING 16BIT HEX DIGIT INTO DECIMAL AND PRINTING TO SCREEN
+
+PUSH BX              ; RESERVING BX AND CX FOR LATER USE BY PUSHIN STACK
+PUSH CX
+LEA SI, STRING
+	
+MOV BX, 10			 ;STORING 2 DIGITS NUMBER AS CHARACTER IN STRING
+XOR CX, CX
+DIVISION: XOR DX,DX
+DIV BX
+PUSH DX
+INC CX
+CMP AX, 0
+JNE DIVISION
+STORE: POP DX
+ADD DL, 48
+MOV [SI], DL
+INC SI
+LOOP STORE
+MOV [SI], '$ '
+
+POP CX
+POP BX
+
+LEA DX, DASH
+MOV AH, 9
+INT 21H
+    
+LEA DX, STRING       ;GET THAT 2 DIGIT NUMBER WHICH IS CHARACTER FROM STRING
+MOV AH, 9
+INT 21H
+
+
+MAIN ENDP
+END MAIN
+```
+---
+**15**
+
+![Multiply using repeated summation](https://i.ibb.co/3NTkd8y/image.png "Multiply using repeated summation")
+Write a program which stores a number in AX, stores another number in BX and multiplies them  using repeated summation and prints the result. You will not be able to use the “MUL” function here. And you do not have to take overflow into account
+```
+.MODEL SMALL
+.STACK 100H
+.DATA
+STRING DB 5 DUP(?)
+MSG DB 'AX * BX = $'  
+.CODE
+
+
+MAIN PROC 
+    MOV AX,@DATA
+    MOV DS,AX
+    
+    ;NUMBER YOU WANT TO MULTIPLY 
+    
+    MOV AX, 15       ;STORE NUMBER IN AX
+    
+    ;HOW MANY REPEATIONS YOU WANT
+    
+    MOV BX, 10       ;STORE NUMBER IN BX
+                                 
+    
+    MOV CX,BX
+    MOV BX,AX                             
+    SUB CX, 1       ;SUBTRACTION (N-1) BECAUSE AX * BX == AX * BX+1
+    
+
+    L1:
+      ADD AX,BX
+      LOOP L1
+
+    ;CONVERTING 16 BIT HEX VALUE TO DECIMAL AND PRINT
+    
+    PUSH BX                 ;; RESERVING BX AND CX FOR LATER USE BY PUSHIN STACK
+    PUSH CX
+    LEA SI, STRING
+    
+    MOV BX, 10              ;; STORING 2 DIGITS NUMBER AS CHARACTER IN STRING
+    XOR CX, CX
+    DIVISION: XOR DX,DX
+    DIV BX
+    PUSH DX
+    INC CX
+    CMP AX, 0
+    JNE DIVISION
+    STORE: POP DX
+    ADD DL, 48
+    MOV [SI], DL
+    INC SI
+    LOOP STORE
+    MOV [SI], '$ '
+    
+    POP CX
+    POP BX
+    
+    LEA DX, MSG
+    MOV AH, 9
+    INT 21H
+    
+    LEA DX, STRING         ;;GET THAT 2 DIGIT NUMBER WHICH IS CHARACTER FROM STRING
+    MOV AH, 9
+    INT 21H
+
+    MAIN ENDP
+END MAIN
+```
+---
+**16**
+
+![Verify Hex and convert to Decimal](https://i.ibb.co/vw823xW/image.png "Verify Hex and convert to Decimal")
+
+‘Write a program that will prompt the user to enter a hex digit character ("0" ... "9" or "A" ... "F'), display it on the next line in decimal, and ask the user if he or she wants to do it again. If the user types “y" or "Y", the program repeats. If the user types “n” or “N” the program terminates. If the user enters an illegal character, prompt the user to try again
+
+ENTER A HEX DIGIT: 9
+IN DECIMAL IT IS 9
+DO YOU WANT TO DO IT AGAIN?: y
+
+ENTER A HEX DIGIT: c
+ILLEGAL CHARACTER, INSERT AGAIN: C
+IN DECIMAL IT IS 12
+
+DO YOU WANT TO DO IT AGAIN? : N
+
+```
+.MODEL SMALL
+.STACK 100H
+.DATA
+TEXT1 DB 10,13,'ENTER A HEX DIGIT: $'
+TEXT2 DB 10,13,'IN DECIMAL IT IS $'
+TEXT3 DB 10,13,'DO YOU WANT TO DO IT AGAIN? : $'
+TEXT4 DB 10,13,'ILLEGAL CHARACTER, INSERT AGAIN: $'
+
+
+.CODE   
+
+
+RETRY:
+
+    MOV AX,@DATA
+    MOV DS,AX
+    LEA DX,TEXT1
+    MOV AH,9
+    INT 21H
+   
+    MOV AH,1
+    INT 21H
+   
+    MOV BL,AL 
+   
+    JMP PROCEED
+   
+   
+PROCEED:   
+
+    CMP BL,'9'
+    JA ATOF
+    JB ZEROTONINE
+    JE ZEROTONINE
+           
+       
+ATOF:
+
+    CMP BL,'F'
+    JA NOTAHEX  
+    
+    
+    LEA DX,TEXT2 
+    MOV AH,9
+    INT 21H
+   
+    MOV DL,49D
+    MOV AH,2
+    INT 21H
+    
+    SUB BL,17D
+    MOV DL,BL
+    MOV AH,2
+    INT 21H
+    
+    JMP USERINPUT
+       
+    
+USERINPUT:
+    
+    LEA DX,TEXT3
+    MOV AH,9
+    INT 21H
+    
+    MOV AH,1
+    INT 21H
+    
+    MOV CL,AL
+    CMP CL,'y'
+    JE RETRY
+    CMP CL,'Y'
+    JE RETRY
+    JMP EXIT
+    
+   
+ZEROTONINE:
+   
+    CMP BL,'0'
+    JB NOTAHEX
+   
+    LEA DX,TEXT2 
+    MOV AH,9
+    INT 21H 
+       
+    MOV DL,BL
+    MOV AH,2
+    INT 21H
+   
+    JMP USERINPUT
+   
+      
+NOTAHEX:
+
+    LEA DX,TEXT4
+    MOV AH,9
+    INT 21H
+       
+    MOV AH,1
+    INT 21H
+       
+    MOV BL,AL 
+    JMP PROCEED
+       
+       
+EXIT:
+```
+---
+**17**
+
+![Reverse all capital letters to small and vice versa](https://i.ibb.co/6vf5Rpj/image.png "Reverse all capital letters to small and vice versa")
+Take your name as input in an array. Then your program will have to capitalize all the small letters and convert all the small letters into capital letters.
+```
+.MODEL SMALL
+.DATA
+        
+TXT1 DB "Enter Name:$"
+TXT2 DB 0AH,0DH, "Output:$"
+INPUT_ARRAY DB 60 DUP('$')
+RESULT_ARRAY DB 60 DUP('$') 
+
+.CODE
+    MOV AX,@DATA    
+    MOV DS,AX
+
+    ;Prompt    
+    LEA DX,TXT1
+    MOV AH,09H
+    INT 21H
+    
+    ;User Input
+    LEA DX,INPUT_ARRAY   
+    MOV AH,0AH        
+    INT 21H        
+    
+    ;Start Processing          
+    MOV AL,INPUT_ARRAY[01]
+    MOV CL,AL        
+    CALL CASE
+             
+    ;Show Output Result    
+    LEA DX,TXT2
+    MOV AH,09H
+    INT 21H
+    MOV DI,00
+    LEA DX,RESULT_ARRAY[DI]
+    MOV AH,09H          
+    INT 21H
+     
+    MOV AH,4CH
+    INT 21H
+
+
+CASE PROC
+    MOV SI,02         
+    MOV DI,00
+                 
+    CASE1:
+        MOV AL,INPUT_ARRAY[SI] 
+        CMP AL,'A'         
+        JL CASE4             
+        CMP AL,'Z'         
+        JLE CASE3
+      
+        CMP AL,'a'         
+        JL CASE4             
+        CMP AL,'z'         
+        JG CASE4             
+        SUB AL,20H        
+     
+    CASE2:
+        MOV RESULT_ARRAY[DI],AL      
+        INC DI              
+        INC SI                               
+        CMP CL,00
+        JNZ CASE1
+        
+    CASE3:
+        ADD AL,20H          
+        MOV RESULT_ARRAY[DI],AL      
+        INC DI              
+        INC SI               
+        DEC CL               
+        CMP CL,00
+        JNZ CASE1
+       
+    CASE4:
+        CMP AL,20H
+        JE CASE2
+        RET
+      
+CASE ENDP
+END
+```
+---
+**18**
+
+![find maximum of three inputs](https://i.ibb.co/wY9WRQm/image.png "find maximum of three inputs")
+Take three inputs from the user and find the maximum of the three numbers
+
+Sample Input:
+Enter Three numbers: 1 2 3 
+Largest Number:
+3
+```
+ORG 100H
+
+.DATA
+INP1 DB "Enter Three numbers: $" 
+INP2 DB " $" 
+INP3 DB " $"
+RESULT DB 0AH,0DH, "Largest Number: $"
+
+
+.CODE 
+    ;First Input
+    LEA DX,INP1
+    MOV AH,9
+    INT 21H
+    ;Storing Input in BL
+    MOV AH,1
+    INT 21H
+    MOV BL,AL 
+    
+    ;2nd Input
+    LEA DX,INP2
+    MOV AH,9
+    INT 21H
+    ;Storing Input in BH
+    MOV AH,1
+    INT 21H
+    MOV BH,AL
+     
+    ;3rd Input
+    LEA DX,INP3
+    MOV AH,9
+    INT 21H 
+    ;Storing Input in CL
+    MOV AH,1
+    INT 21H
+    MOV CL,AL
+
+
+COMPARE1:
+    CMP BL,BH
+    JG COMPARE2
+    JMP COMPARE3
+
+COMPARE2:
+    CMP BL,CL
+    JG PRNT1 
+    JMP PRNT3
+
+COMPARE3:
+    CMP BH,CL
+    JG PRNT2 
+    JMP PRNT3
+
+
+PRNT1: 
+    LEA DX,RESULT
+    MOV AH,9
+    INT 21H
+
+    MOV AH,2
+    MOV DL,BL
+    INT 21H
+    
+    JMP END
+
+PRNT2:
+    LEA DX,RESULT
+    MOV AH,9
+    INT 21H
+    
+    MOV AH,2
+    MOV DL,BH
+    INT 21H
+    
+    JMP END
+
+PRNT3: 
+    LEA DX,RESULT
+    MOV AH,9
+    INT 21H
+    
+    MOV AH,2
+    MOV DL,CL
+    INT 21H
+    
+    JMP END
+
+END:
+```
+---
+**19**
+
+![sort 5 input in ascending order from an array](https://i.ibb.co/44f5Qqh/image.png "sort 5 input in ascending order from an array")
+Take an array of size 5, then populate the array. Your program will then sort the array in ascending order
+```
+.MODEL SMALL
+.STACK 100H
+.DATA 
+
+TXT1 DB 'ENTER 5 NUMBERS: $'   
+INPUT_ARRAY DB 10 DUP(0)
+
+.CODE 
+MAIN PROC 
+
+MOV AX,@DATA 
+MOV DS,AX 
+
+LEA DX,TXT1
+MOV AH,9
+INT 21H
+
+MOV CX,5
+MOV AH,1
+MOV SI,0
+ 
+STORING:
+    INT 21H
+    MOV INPUT_ARRAY[SI],AL
+    ADD SI,1
+    LOOP STORING
+
+MOV CX,5
+DEC CX 
+
+SORT:
+    MOV BX,CX
+    MOV SI,0
+
+SORTING:
+    MOV AL,INPUT_ARRAY[SI]
+    MOV DL,INPUT_ARRAY[SI+1]
+    CMP AL,DL
+    JC INDEXING
+    MOV INPUT_ARRAY[SI],DL
+    MOV INPUT_ARRAY[SI+1],AL
+
+INDEXING:
+    INC SI
+    DEC BX
+    JNZ SORTING
+    
+    LOOP SORT
+    
+MOV AH,2
+MOV DL,10
+INT 21H
+MOV DL,13
+INT 21H
+
+MOV CX,5
+MOV AH,2
+MOV SI,0    
+
+RESULT:
+    MOV DL,INPUT_ARRAY[SI]
+    INT 21H
+    ADD SI,1
+    LOOP RESULT 
+               
+MOV AX,4C00H
+INT 21H 
+
+MAIN ENDP
+    END MAIN
+```
+---
