@@ -1771,6 +1771,11 @@ Input 2:
 Output 2:
 palindrome
 
+<details>
+  <summary>Show Original</summary>
+  <img src="q/20.png" alt="sum 2 16 bit value and varify if the result is palidrome or not" title="sum 2 16 bit value and varify if the result is palidrome or not">
+</details>
+
 ```
 .MODEL SMALL
 .DATA
